@@ -77,7 +77,7 @@ const operater = (a, b, callback) => {
     return callback(a, b);
 };
 
-console.log(operate(10, 5, function(a, b){ return a - b})); 
-console.log(operate(10, 5, function(a, b){ return a + b})); 
-console.log(operate(10, 5, function(a, b){ return a * b})); 
-console.log(operate(10, 5, function(a, b){ return a / b})); 
+console.log(operater(10, 5, function(a, b){ return a - b})); 
+console.log(operater(10, 5, function(a, b){ return a + b})); 
+console.log(operater(10, 5, function(a, b){ return a * b})); 
+console.log(operater(10, 5, function(a, b){ return a / b})); 
